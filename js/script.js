@@ -9,7 +9,10 @@
 
 // DOCUMENT READY FUNCTION BELOW
 
-$(document).readyfunction(){
-}
+$(document).ready(function() {
+   var rps = ["rock", "paper", "scissors"];
+var randomValue = rps[Math.floor(rps.length * Math.random())]; 
 
-
+$("#play").click(function() {
+    
+});
