@@ -12,7 +12,11 @@
 $(document).ready(function() {
    var rps = ["rock", "paper", "scissors"];
 var randomValue = rps[Math.floor(rps.length * Math.random())]; 
-
-$("#play").click(function() {
+    
+ 
+$("#play").click(function() {   
+    var Userinput = $("#userChoice").val();
+        $("#user").append("#user");
+        
     
 });
